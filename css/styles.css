@@ -34,3 +34,20 @@
     margin-right: auto;
     width: 272;
 }
+
+input {
+    position: relative;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+button {
+    position: relative;
+    width: auto;
+    text-align: center;
+}
