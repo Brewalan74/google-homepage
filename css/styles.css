@@ -22,6 +22,7 @@ header {
     border-radius: 50%;
     padding: 2px;
     margin: 10px;
+    vertical-align: middle;
 }
 
 #headertext {
