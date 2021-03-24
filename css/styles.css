@@ -1,46 +1,54 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-}
-
-#title {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    height: 50px;
+}
+
+nav a:link, a:visited, a:active, a:hover {
+    color: black;
+}
+
+.button1 {
+    width: auto;
+    height: 30px;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
     vertical-align: middle;
 }
 
-.nav {
-    float: right;
-}
-
 .gborder {
-    border-width: 0px;
-    border-style: solid;
-    border-radius: 50%;
     width: 30px;
     padding: 2px;
     margin: 10px;
     vertical-align: middle;
 }
 
-#navtext1 {
-    color: black;
-    margin-top: 20px;
+.navtop1 {
+    float: left;
+    padding-top: 15px;
+}
+.navtop2 {
+    float: right;
 }
 
 #navtext {
     color: black;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 14px;
 }
 
 .logo {
     display: block;
-    margin-top: 200px;
+    margin-top:150px;
     margin-left: auto;
     margin-right: auto;
     width: 272;
@@ -49,17 +57,21 @@ header {
 input {
     width: 450px;
     height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: 1px solid black;
     border-radius: 25px;
 }
 
-button {
+.button2 {
     margin-top: 20px;
     font-size: 15px;
     padding: 5px;
     border: none;
+}
+
+form button:hover {
+    
 }
 
 .center {
