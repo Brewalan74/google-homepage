@@ -64,14 +64,14 @@ input {
 }
 
 .button2 {
-    margin-top: 20px;
+    margin: 20px 5px 0px 5px;
     font-size: 15px;
     padding: 5px;
     border: none;
 }
 
 form button:hover {
-    
+    border: 1px solid darkgrey;
 }
 
 .center {
